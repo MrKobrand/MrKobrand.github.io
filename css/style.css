@@ -1,0 +1,47 @@
+body {
+  background: rgba(23, 107, 218, 0.9);
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: white;
+}
+article {
+  max-width: 920px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3 {
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  border-bottom: black solid 3px;
+  background: rgba(16, 15, 99, 0.9);
+  border-radius: 20px 20px 0 0;
+  padding: 10px 10px 10px 30px;
+}
+h1 {
+  font-size: 30px;
+}
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+p.text::first-line {
+  text-indent: 35px;
+}
+#logo {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 0 0 20px 20px;
+  padding: 12px;
+}
+.note {
+  background: rgb(20, 55, 87);
+  border: 3px solid rgb(0, 0, 0);
+  padding: 12px;
+  margin-bottom: 70px;
+  text-indent: 0px;
+}
+::selection {
+  color: white;
+  background: black;
+}
