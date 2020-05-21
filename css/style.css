@@ -1,5 +1,10 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background: url(../img/Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 div.container {
   padding: 0;
@@ -41,21 +46,21 @@ header {
 #menu a:hover {
   color: #22f272;
 }
-#maininfo {
+#headerinfo {
   height: 548px;
   display: flex;
   align-items: center;
   color: #fff;
   text-align: center;
 }
-#maininfo h1 {
+#headerinfo h1 {
   color: #02d352;
   font-size: 48px;
 }
-#maininfo p {
+#headerinfo p {
   font-size: 24px;
 }
-#maininfo a {
+#headerinfo a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -65,6 +70,112 @@ header {
   padding: 10px;
   font-size: 18px;
 }
-#maininfo a:hover {
+#headerinfo a:hover {
   text-decoration: underline;
+}
+footer {
+  height: 255px;
+  color: rgb(138, 132, 132);
+}
+footer #footermenu {
+  height: 150px;
+  background: rgb(61, 55, 55);
+}
+footer #footermenu span {
+  font-size: 18px;
+}
+footer #footermenu #footerlogo {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+  justify-content: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  color: #fff;
+}
+footer #footermenu #navigation {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  justify-content: flex-start;
+}
+footer #footermenu #navigation span {
+  margin-bottom: 15px;
+}
+footer #footermenu #navigation a {
+  text-decoration: none;
+  color: rgb(138, 132, 132);
+  transition: color 0.28s ease-out;
+}
+footer #footermenu #navigation a:hover {
+  color: rgb(241, 99, 16);
+}
+footer #footermenu #navigation span a {
+  text-decoration: none;
+  color: rgb(199, 194, 194);
+  transition: color 0.28s ease-out;
+}
+footer #footermenu #navigation span a:hover {
+  color: #fff;
+}
+footer #footermenu #join-us {
+  padding-top: 8px;
+}
+footer #footermenu #join-us span a {
+  text-decoration: none;
+  color: rgb(199, 194, 194);
+  transition: color 0.28s ease-out;
+}
+footer #footermenu #join-us span a:hover {
+  color: #fff;
+}
+footer #footermenu #join-us .social {
+  display: inline-block;
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin: 0 10px 0 0;
+  padding: 11px 8px 3px 8px;
+  color: #000;
+  transition: color 0.28s ease-out;
+  transition: background 0.28s ease-out;
+}
+.github a:hover {
+  background: #191919;
+  color: #fff;
+}
+.vk a:hover {
+  background: #5d84ae;
+  color: #fff;
+}
+footer #contactsandcopyright {
+  height: 105px;
+  background: rgb(22, 21, 21);
+}
+footer #contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 13px 0;
+}
+footer #contacts a {
+  text-decoration: none;
+  color: rgb(138, 132, 132);
+}
+footer #contacts a:hover {
+  text-decoration: underline;
+}
+footer #copyright {
+  display: flex;
+  align-items: center;
+}
+footer #copyright span {
+  padding-left: 15px;
 }
