@@ -73,6 +73,44 @@ header {
 #headerinfo a:hover {
   text-decoration: underline;
 }
+section#about-us {
+  background: #fff;
+  height: 500px;
+}
+section#about-us .command-structure {
+  height: 100px;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#about-us .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#about-us .name {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
+section#about-us .position {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+section#about-us .person-info {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 footer {
   height: 255px;
   color: rgb(138, 132, 132);
