@@ -115,10 +115,13 @@ section#objectives {
 }
 section#objectives .blue-back#servers {
   height: 310px;
+  /*11 146 224*/
+  /*94, 195, 253*/
   background: rgb(241, 245, 245);
 }
 section#objectives .blue-back {
   height: 210px;
+  /*241 245 245*/
   background: rgb(241, 245, 245);
 }
 section#objectives .white-back {
@@ -151,12 +154,61 @@ section#objectives .descr-obj a {
   color: #fff;
   padding: 7px;
   border-radius: 5px;
-  background: rgb(93, 129, 247);
+  /*background: rgb(93, 129, 247);*/
+  background: rgb(0, 0, 0);
 }
 section#objectives .descr-obj a:hover {
   text-decoration: underline;
 }
 /* <--SECTION#OBJECTIVES--> */
+
+/* SECTION#ADVANTAGES */
+section#advantages {
+  background: rgb(241, 245, 245);
+  height: 320px;
+}
+section#advantages .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#advantages .description {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+}
+/* <--SECTION#ADVANTAGES--> */
+
+/* SECTION#GAMEPLAY */
+section#gameplay {
+  background: #fff;
+  height: 400px;
+}
+section#gameplay .image {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#gameplay img {
+  border: 3px solid #000;
+}
+section#gameplay .col-8 {
+  font-size: 20px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+section#gameplay .col-8 span {
+  display: contents;
+  font-weight: bold;
+}
+/* <--SECTION#GAMEPLAY--> */
 
 /* SECTION#ABOUT-US */
 section#about-us {
@@ -167,6 +219,9 @@ section#about-us .image {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+section#about-us img {
+  border: 3px solid #000;
 }
 section#about-us .name {
   height: 35px;
