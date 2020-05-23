@@ -73,11 +73,30 @@ header {
 #headerinfo a:hover {
   text-decoration: underline;
 }
-section#about-us {
+section#our-goals {
   background: #fff;
+  height: 320px;
+}
+section#our-goals .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#our-goals .description {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+section#our-goals .description span {
+  display: contents;
+  font-weight: bold;
+}
+section#about-us {
+  background: rgb(230, 236, 236);
   height: 500px;
 }
-section#about-us .command-structure {
+section .headline {
   height: 100px;
   font-weight: bold;
   font-size: 24px;
