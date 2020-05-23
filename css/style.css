@@ -1,3 +1,4 @@
+/* MAIN */
 body {
   font-family: "Montserrat", sans-serif;
   background: url(../img/Background.jpg);
@@ -9,6 +10,16 @@ body {
 div.container {
   padding: 0;
 }
+section .headline {
+  font-size: 22px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* <--MAIN--> */
+
+/* HEADER */
 header {
   background: url(../img/back-header.jpg);
   height: 608px;
@@ -73,6 +84,9 @@ header {
 #headerinfo a:hover {
   text-decoration: underline;
 }
+/* <--HEADER--> */
+
+/* SECTION#OUR-GOALS */
 section#our-goals {
   background: #fff;
   height: 320px;
@@ -92,17 +106,62 @@ section#our-goals .description span {
   display: contents;
   font-weight: bold;
 }
-section#about-us {
-  background: rgb(230, 236, 236);
-  height: 500px;
+/* <--SECTION#OUR-GOALS--> */
+
+/* SECTION#OBJECTIVES */
+section#objectives {
+  height: 950px;
+  background: #fff;
 }
-section .headline {
-  height: 100px;
-  font-weight: bold;
-  font-size: 24px;
+section#objectives .blue-back#servers {
+  height: 310px;
+  background: rgb(241, 245, 245);
+}
+section#objectives .blue-back {
+  height: 210px;
+  background: rgb(241, 245, 245);
+}
+section#objectives .white-back {
+  height: 210px;
+  background: #fff;
+}
+section#objectives .image-objective {
+  height: 210px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+section#objectives .descr-obj {
+  height: 210px;
+  padding-left: 40px;
+  padding-top: 20px;
+  display: flex;
+}
+section#objectives .descr-obj h3 {
+  margin: 0;
+  font-size: 26px;
+}
+section#objectives .descr-obj p {
+  margin: 0;
+  font-size: 22px;
+}
+section#objectives .descr-obj a {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px;
+  border-radius: 5px;
+  background: rgb(93, 129, 247);
+}
+section#objectives .descr-obj a:hover {
+  text-decoration: underline;
+}
+/* <--SECTION#OBJECTIVES--> */
+
+/* SECTION#ABOUT-US */
+section#about-us {
+  background: rgb(241, 245, 245);
+  height: 500px;
 }
 section#about-us .image {
   display: flex;
@@ -130,6 +189,9 @@ section#about-us .person-info {
   justify-content: center;
   text-align: center;
 }
+/* <--SECTION#ABOUT-US--> */
+
+/* FOOTER */
 footer {
   height: 255px;
   color: rgb(138, 132, 132);
@@ -236,3 +298,4 @@ footer #copyright {
 footer #copyright span {
   padding-left: 15px;
 }
+/* <--FOOTER--> */
