@@ -359,6 +359,78 @@ footer #copyright span {
 
 /* ADAPTABILITY */
 @media (max-width: 575.98px) {
+  section#our-goals .description {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+  section .headline {
+    text-align: center;
+    font-size: 18px;
+  }
+  section#objectives .descr-obj p {
+    font-size: 14px;
+    padding-right: 9px;
+  }
+  section#advantages {
+    height: 260px;
+  }
+  section#advantages img {
+    height: 60px;
+  }
+  section#advantages .description {
+    height: 80px;
+    font-size: 9px;
+  }
+  section#gameplay .col-8 {
+    font-size: 12px;
+    padding-left: 60px;
+  }
+  section#gameplay img {
+    border: 1px solid #000;
+    height: 170px;
+  }
+  section#gameplay .image {
+    padding-left: 50px;
+  }
+  section#about-us img {
+    border: 1px solid #000;
+    height: 140px;
+  }
+  section#about-us .name {
+    font-size: 15px;
+    text-align: center;
+  }
+  section#about-us .position {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  section#about-us .person-info {
+    font-size: 11px;
+    padding-top: 40px;
+  }
+  section#about-us {
+    height: 420px;
+  }
+  footer #footermenu {
+    height: 120px;
+  }
+  footer #footermenu #navigation a {
+    font-size: 9px;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  footer #footermenu #join-us {
+    padding-left: 30px;
+  }
+  footer #footermenu #join-us span a {
+    font-size: 9px;
+  }
+  footer #copyright span {
+    font-size: 12px;
+  }
+  footer #contacts {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -469,8 +541,15 @@ footer #copyright span {
     height: 170px;
   }
   footer #footermenu #navigation a {
+    font-size: 13px;
     -webkit-hyphens: auto;
     hyphens: auto;
+  }
+  footer #footermenu #join-us {
+    padding-left: 40px;
+  }
+  footer #footermenu #join-us span a {
+    font-size: 13px;
   }
 }
 /* <--ADAPTABILITY--> */
