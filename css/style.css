@@ -333,6 +333,7 @@ footer #contactsandcopyright {
   background: rgb(22, 21, 21);
 }
 footer #contacts {
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -347,6 +348,7 @@ footer #contacts a:hover {
   text-decoration: underline;
 }
 footer #copyright {
+  text-align: center;
   display: flex;
   align-items: center;
 }
@@ -360,13 +362,80 @@ footer #copyright span {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  section#our-goals .description {
+    padding: 0 10px;
+  }
+  section .headline {
+    text-align: center;
+  }
+  section#objectives .descr-obj p {
+    font-size: 16px;
+    padding-right: 10px;
+  }
+  section#advantages img {
+    height: 80px;
+  }
+  section#advantages .description {
+    height: 80px;
+    font-size: 11px;
+  }
+  section#gameplay .col-8 {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  section#gameplay img {
+    border: 2px solid #000;
+    height: 150px;
+  }
+  section#gameplay .image {
+    padding-left: 10px;
+  }
+  section#about-us img {
+    border: 1px solid #000;
+    height: 170px;
+  }
+  section#about-us .name {
+    font-size: 16px;
+    text-align: center;
+  }
+  section#about-us .position {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  section#about-us .person-info {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  section#about-us {
+    height: 440px;
+  }
+  footer #footermenu {
+    height: 160px;
+  }
+  footer #footermenu #navigation a {
+    font-size: 11px;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  footer #footermenu #join-us {
+    padding-left: 40px;
+  }
+  footer #footermenu #join-us span a {
+    font-size: 11px;
+  }
+  footer #copyright span {
+    font-size: 14px;
+  }
+  footer #contacts {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   section#our-goals .description {
     padding: 0 10px;
   }
-  h2 {
+  section .headline {
     text-align: center;
   }
   section#objectives .descr-obj p {
@@ -378,11 +447,9 @@ footer #copyright span {
   }
   section#gameplay .col-8 {
     font-size: 18px;
-    padding: 30px;
+    padding: 0 30px;
   }
   section#gameplay img {
-    display: block;
-    max-width: 100%;
     height: 200px;
   }
   section#gameplay .image {
