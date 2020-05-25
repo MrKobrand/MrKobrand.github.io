@@ -267,29 +267,29 @@ footer #footermenu #footerlogo {
   font-size: 24px;
   color: #fff;
 }
-footer #footermenu #navigation {
+footer #footermenu .navigation {
   display: flex;
   flex-direction: column;
   padding-top: 8px;
   justify-content: flex-start;
 }
-footer #footermenu #navigation span {
+footer #footermenu .navigation span {
   margin-bottom: 15px;
 }
-footer #footermenu #navigation a {
+footer #footermenu .navigation a {
   text-decoration: none;
   color: rgb(138, 132, 132);
   transition: color 0.28s ease-out;
 }
-footer #footermenu #navigation a:hover {
+footer #footermenu .navigation a:hover {
   color: rgb(241, 99, 16);
 }
-footer #footermenu #navigation span a {
+footer #footermenu .navigation span a {
   text-decoration: none;
   color: rgb(199, 194, 194);
   transition: color 0.28s ease-out;
 }
-footer #footermenu #navigation span a:hover {
+footer #footermenu .navigation span a:hover {
   color: #fff;
 }
 footer #footermenu #join-us {
@@ -414,7 +414,7 @@ footer #copyright span {
   footer #footermenu {
     height: 120px;
   }
-  footer #footermenu #navigation a {
+  footer #footermenu .navigation a {
     font-size: 9px;
     -webkit-hyphens: auto;
     hyphens: auto;
@@ -484,7 +484,7 @@ footer #copyright span {
   footer #footermenu {
     height: 160px;
   }
-  footer #footermenu #navigation a {
+  footer #footermenu .navigation a {
     font-size: 11px;
     -webkit-hyphens: auto;
     hyphens: auto;
@@ -540,7 +540,7 @@ footer #copyright span {
   footer #footermenu {
     height: 170px;
   }
-  footer #footermenu #navigation a {
+  footer #footermenu .navigation a {
     font-size: 13px;
     -webkit-hyphens: auto;
     hyphens: auto;
