@@ -11,7 +11,7 @@ $(function () {
       if ($target.length) {
         var targetOffset = $target.offset().top;
         $("html,body").animate({ scrollTop: targetOffset }, 800); //скорость прокрутки
-        return false;
+        return false;// конец
       }
     }
   });
